@@ -1,11 +1,36 @@
-There are two interactive features. On each page, there will be two buttons at the top right of the screen.
+# Personal Portfolio Website
 
-1. **Font Size Adjuster:** "Text Size" button
-	- Toggles between the original font size and a larger font size.
+A responsive and accessible personal portfolio website built using HTML, CSS, and JavaScript.
 
-2. **Theme Switcher:** "Dark Mode" and "Light Mode" are the same button
-	- Click "Dark Mode" to change site to a darker color scheme, button text will change to "Light Mode". 
-	- Click "Light Mode" to change site to a lighter color scheme (the original color scheme), button text will change to "Dark Mode". 
+## Features
 
+### Accessibility
+- Semantic HTML structure
+- Keyboard navigation support
+- Screen reader compatibility
+- Visible focus states
+- Alt text for images
+- High contrast color schemes
 
-Link to Video Presentation: https://drive.google.com/file/d/1DI08ydE0M-zcNsiQfutboUzMsY-RCfag/view?usp=sharing
+### Interactive Features
+
+**Text Size Toggle**
+- "Text Size" button increases font size for improved readability.
+- Allows users with visual impairments to easily adjust text scale.
+
+**Theme Switcher**
+- Toggle between Light Mode and Dark Mode.
+- Improves accessibility and user comfort in different lighting environments.
+
+### Performance Optimizations
+- Compressed and resized images for faster page loading.
+- Site remains functional without images, JavaScript, or stylesheets.
+- Tested across multiple browsers and devices.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Live Website
+[View Portfolio]()
