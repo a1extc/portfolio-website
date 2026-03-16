@@ -22,13 +22,12 @@ function changeMode() {
 }
 
 function changeTextSize() {
-    const body = document.getElementsByTagName("body")[0];
-    const textSizeButton = document.getElementById("textSizeButton");
+    const html = document.documentElement;
 
     if (isLargeText) {
-        body.style.fontSize = "16px"; // Normal text size
+        html.style.fontSize = "16px"; // Normal text size
     } else {
-        body.style.fontSize = "24px"; // Larger text size
+        html.style.fontSize = "24px"; // Larger text size
     }
 
     isLargeText = !isLargeText; // Toggle the font size
