@@ -31,6 +31,9 @@ A responsive and accessible personal portfolio website built using HTML, CSS, an
 - HTML
 - CSS
 - JavaScript
+- Bootstrap
 
 ## Live Website
-[View Portfolio](https://a1extc.github.io/portfolio-website/)
+<a href="https://a1extc.github.io/portfolio-website/" target="_blank" rel="noopener noreferrer">
+  View Portfolio
+</a>
