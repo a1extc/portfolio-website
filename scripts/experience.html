@@ -1,0 +1,191 @@
+<!DOCTYPE html> <!-- tells server that this is an html doc -->
+
+<html lang="en"> <!-- html starts -->
+
+  <head> <!-- head keeps metadata. won't be shown on page -->
+
+    <meta charset="utf-8"> <!-- encoding language is utf-8 standard -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- fits content in different devices -->
+    <title>Experience</title>
+
+    <!-- TODO: LINK STYLESHEET (bootstrap) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--  <link rel="stylesheet" href="assets/css/main.css"> -->
+
+  </head>
+
+
+  <body> <!-- body starts: anything in body will be rendered on page -->
+
+    <!-- BootStrap Code Starts: https://getbootstrap.com/docs/5.3/components/navbar/#nav -->
+    <nav class="navbar navbar-expand-lg bg-black border-bottom border-body" data-bs-theme="dark">
+      <!-- include all four pages -->
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="education.html">Education</a>
+            <a class="nav-link" href="skills.html">Skills</a>
+            <a class="nav-link active" aria-current="page" href="experience.html">Experience</a>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- BootStrap Code Ends -->
+
+
+    <main> <!-- main content of page -->
+
+      <!-- interactive features starts -->
+      <div class="text-end">
+
+        <button type="button" class="btn btn-secondary btn-sm" onclick="changeMode()" id="darkModeButton">Dark Mode</button>
+
+        <button type="button" class="btn btn-secondary btn-sm" onclick="changeTextSize()" id="textSizeButton">Text Size</button>
+
+      </div>
+      <!-- interactive features ends -->
+
+      <!-- Displayed content for users with JavaScript enabled -->
+      <noscript>
+        <div class="alert alert-warning text-center mt-3" role="alert">
+          <strong>JavaScript is disabled in your browser!</strong> <br>
+          For the best experience, please enable JavaScript or use a browser that supports it. <br>
+          May affect the functionality of the following buttons: <span class="fst-italic bold fw-bold text-danger">dropdown, dark mode, text size.</span>
+        </div>
+      </noscript>
+
+
+      <!-- Page Content -->
+      <div class="mx-5 my-4">
+
+        <h1 style="font-size: 2em;"> Experience </h1>
+
+          
+          <h2 style="font-size: 1.5em;" class="m-4 mx-5">Work</h2>
+
+            <!-- Cards -->
+            <div class="container my-5">
+              <div class="row gy-4 justify-content-evenly">
+
+                <div class="col-12 col-md-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 style="font-size: 1.3em;" class="card-title"> <strong>Peer Mentor</strong> </h3>
+                            <h4 style="font-size: 1em;" class="card-subtitle mb-2 text-body-secondary">Jan 2023 - Jun 2023</h4>
+                            <p class="card-text">Assisted students in navigating academic challenges, provided guidance on coursework, and organized study sessions to enhance their learning experience.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 style="font-size: 1.3em;" class="card-title"> <strong>Data Entry</strong> </h3>
+                            <h4 style="font-size: 1em;" class="card-subtitle mb-2 text-body-secondary">Sep 2023 - Nov 2023</h4>
+                            <p class="card-text">Managed and updated large datasets with a focus on accuracy and efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          <h2 style="font-size: 1.5em;" class="m-4 mx-5">Projects</h2>
+
+            <!-- Cards -->
+            <div class="container my-5">
+
+              <!-- Start Row -->
+              <div class="row gy-4 justify-content-evenly">
+
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 style="font-size: 1.3em;" class="card-title"> <strong>Restaurant Revenue Statistical Analysis</strong> </h3>
+                            <h4 style="font-size: 1em;" class="card-subtitle mb-2 text-body-secondary">Sep 2022 - Dec 2022</h4>
+                            <p class="card-text">Conducted an in-depth analysis of restaurant revenue data to identify trends and patterns. Developed statistical models to forecast future revenue and improve business strategies.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Relational Analysis of Diabetes and Health Factors -->
+
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 style="font-size: 1.3em;" class="card-title"> <strong>Diabetes Relational Analysis</strong> </h3>
+                            <h4 style="font-size: 1em;" class="card-subtitle mb-2 text-body-secondary">Mar 2023 - Jun 2023</h4>
+                            <p class="card-text">Analyzed the relationship between diabetes prevalence and various health factors. Utilized statistical techniques to identify key correlations and provide actionable insights for healthcare professionals.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 style="font-size: 1.3em;" class="card-title"> <strong>Social Network Analysis</strong> </h3>
+                            <h4 style="font-size: 1em;" class="card-subtitle mb-2 text-body-secondary">Jul 2023 - Aug 2023</h4>
+                            <p class="card-text">Examined social network data to understand interaction patterns and influence dynamics. Applied network analysis tools to visualize connections and assess the impact of social interactions on behavior.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 style="font-size: 1.3em;" class="card-title"> <strong>HCI Enhancement of Existing App</strong> </h3>
+                            <h4 style="font-size: 1em;" class="card-subtitle mb-2 text-body-secondary">Sep 2023 - Dec 2023</h4>
+                            <p class="card-text">Improved the user interface and experience of an existing application by integrating human-computer interaction (HCI) principles. Conducted usability testing and implemented design changes to enhance user satisfaction.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 style="font-size: 1.3em;" class="card-title"> <strong>Assembly Game Design</strong> </h3>
+                            <h4 style="font-size: 1em;" class="card-subtitle mb-2 text-body-secondary">Jan 2024 - Mar 2024</h4>
+                            <p class="card-text">Designed and developed a game using assembly language, focusing on optimizing performance and creating an engaging user experience. Implemented game mechanics and debugged issues to ensure smooth gameplay.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 style="font-size: 1.3em;" class="card-title"> <strong>Soccer Player Trade Value Prediction</strong> </h3>
+                            <h4 style="font-size: 1em;" class="card-subtitle mb-2 text-body-secondary">Mar 2024 - Jun 2024</h4>
+                            <p class="card-text">Developed a predictive model to estimate the trade value of soccer players based on performance metrics and market trends. Used machine learning techniques to improve the accuracy of trade value predictions.</p>
+                        </div>
+                    </div>
+                </div>
+
+              </div> <!-- End of Row -->
+
+
+            </div> <!-- end of container -->
+
+
+      </div> 
+
+
+      <!-- Page Content End -->
+
+    </main> <!-- main content of page ends -->
+
+    <script type="text/javascript" src="../assets/js/main.js"> </script> <!-- javascript file -->
+
+  </body> <!-- body ends -->
+
+</html> <!-- html ends -->
